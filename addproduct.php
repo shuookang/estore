@@ -1,4 +1,5 @@
 <?php
-$sqlStatement = "INSERT into products …";
+$sqlStatement = "INSERT into menu …";
 $mysqli->query($sqlStatement);
 ?>
+
