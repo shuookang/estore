@@ -9,11 +9,11 @@
         exit();
         }
 
-        $sqlStatement = "SELECT * from products";
+        $sqlStatement = "SELECT * from menu";
 
         $result = $mysqli -> query($sqlStatement); 
         while($record = $result -> fetch_assoc()){
-            // display product by retrieve the $record["name"] etc
+            // display product by retrieve the $rec ord["name"] etc
         }
         $result->free_result();
 
