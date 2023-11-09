@@ -10,8 +10,9 @@
         }
 
         $sqlStatement = "SELECT * from menu";
-        echo $sqlStatement;
+        
         $result = $mysqli -> query($sqlStatement); 
+        echo $result;
         while($record = $result -> fetch_assoc()){
             // display product by retrieve the $rec ord["name"] etc
         }
