@@ -1,5 +1,5 @@
 <?php
-        require_once("dbInfo.php");
+        require_once("dbinfo.php");
 
         $mysqli = new mysqli($hostname,$dbUser,$dbPassword,$db); 
 
